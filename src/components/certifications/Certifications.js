@@ -1,3 +1,5 @@
+import './Certifications.css';
+
 
 const Certifications = () => {
     return (

@@ -1,0 +1,45 @@
+.navigation {
+
+}
+
+.header {
+
+}
+
+.header h1 {
+    color: #7f5539;
+    text-align: center;
+}
+
+.header p {
+    color: #9c6644;
+    text-align: center;
+}
+
+.img-container img {
+    display: block;
+    margin: 1rem auto;
+    width: 50%;
+    height: 100px;
+    width: 100px;
+    border: 2px solid #b08968;
+    border-radius: 50px;
+    padding: 1rem;
+}
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #E6CCB2;
+    padding: 1rem;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #7f5539;
+    font-weight: bolder;
+}
+
+.navbar-link:active {
+    color: #E6CCB2;
+    text-decoration: underline;
+}

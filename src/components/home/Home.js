@@ -1,9 +1,11 @@
+import './Home.css';
 
 const Home = () => {
     return (
         <section className="home">
-            <h2>Overview</h2>
-            <p>this is home</p>
+            <article className="hobby">
+                <h1>Home</h1>
+            </article>
         </section>
     )
 };
