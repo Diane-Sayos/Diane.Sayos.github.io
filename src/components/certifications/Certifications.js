@@ -6,16 +6,24 @@ import forage from '../../images/ForageCert.png';
 import js from '../../images/Coursera-JS.png';
 import reactCert from '../../images/Coursera-React.png';
 import githubPage from '../../images/githubpages.png';
-import frontend from '../../images/Coursera-FrontEnd.png';
+import frontend from '../../images/Codecademy-frontend.png';
 import backend from '../../images/Coursera-BackEnd.png';
 import versionControl from '../../images/Coursera-VersionControl.png';
-
+import introFrontend from '../../images/Coursera-FrontEnd.png';
+import reactCourse from '../../images/Codecademy-react.png';
 
 const Certifications = () => {
     return (
         <section className="certifications">
             <h2>Certifications</h2>
             <div className="cards">
+            <div className="card">
+                    <div className="cert-container">
+                        <img src={fullstack} alt="Fullstack Certificate" />
+                    </div>
+                    <h3>Fullstack Academy</h3>
+                    <p>Web Development Certificate</p>
+                </div>
                 <div className="card">
                     <div className="cert-container">
                         <img src={forage} alt="Forage Certificate" />
@@ -50,6 +58,27 @@ const Certifications = () => {
                     </div>
                     <h3>Coursera</h3>
                     <p>React Basics Certificate</p>
+                </div>
+                <div className="card">
+                    <div className="cert-container">
+                        <img src={reactCourse} alt="React Certificate" />
+                    </div>
+                    <h3>Codecademy</h3>
+                    <p>React Course Certificate</p>
+                </div>
+                <div className="card">
+                    <div className="cert-container">
+                        <img src={backend} alt="Backend Certificate" />
+                    </div>
+                    <h3>Coursera</h3>
+                    <p>Introduction to Back-End Development Certificate</p>
+                </div>
+                <div className="card">
+                    <div className="cert-container">
+                        <img src={introFrontend} alt="FrontEnd Certificate" />
+                    </div>
+                    <h3>Coursera</h3>
+                    <p>Introduction to Front End Development Certificate</p>
                 </div>
                 <div className="card">
                     <div className="cert-container">
