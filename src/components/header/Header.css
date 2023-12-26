@@ -1,20 +1,9 @@
-.navigation {
 
-}
-
-.header {
-
-}
-
-.header h1 {
+.header h1, p {
     color: #7f5539;
     text-align: center;
 }
 
-.header p {
-    color: #9c6644;
-    text-align: center;
-}
 
 .img-container img {
     display: block;
@@ -37,6 +26,7 @@
     text-decoration: none;
     color: #7f5539;
     font-weight: bolder;
+    text-shadow: 3px 2px 2px white;
 }
 
 .navbar-link:active {
