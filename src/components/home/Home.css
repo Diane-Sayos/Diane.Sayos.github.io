@@ -1,3 +1,26 @@
-.hobby {
-    background-color: antiquewhite;
+.tech-stack {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.stack-container {
+    display: block;
+    margin: 1rem auto;
+    width: 50%;
+    height: 120px;
+    width: 170px;
+    border: 2px solid #b08968;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1em;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    background-color: white; 
+}
+
+h3 {
+    text-align: center;
 }
