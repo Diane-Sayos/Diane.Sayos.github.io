@@ -78,7 +78,7 @@ const Certifications = () => {
                         <img src={introFrontend} alt="FrontEnd Certificate" />
                     </div>
                     <h3>Coursera</h3>
-                    <p>Introduction to Front End Development Certificate</p>
+                    <p>Introduction to Front-End Development Certificate</p>
                 </div>
                 <div className="card">
                     <div className="cert-container">

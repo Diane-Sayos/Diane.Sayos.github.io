@@ -26,6 +26,7 @@
     border-radius: 1em;
     background-color: #EDE0D4;
     margin: 1em;
+    width: 300px;
 }
 .card h3,p {
     text-align: center;
