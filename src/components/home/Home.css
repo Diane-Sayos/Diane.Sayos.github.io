@@ -1,3 +1,7 @@
+* {
+    font-family: Abel;
+}
+
 .tech-stack {
     display: flex;
     flex-flow: row wrap;
@@ -23,4 +27,14 @@ img {
 
 h3 {
     text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+}
+.home-buttons {
+    width: 45%;
+    margin: 1em auto;
 }

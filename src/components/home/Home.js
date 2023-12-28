@@ -18,19 +18,25 @@ import vscodePic from '../../images/vscode.png';
 const Home = () => {
     return (
         <section className="home">
+            <div className="buttons">
+                <button className="home-buttons">Download Business Card</button>
+                <button className="home-buttons">Download Resume</button>
+            </div>
         <article className="personal-info">
-            <h3>Personal Information</h3>
+            <h3>PERSONAL INFORMATION</h3>
             <strong>Email:</strong>
             <p>dianesayosbriones@gmail.com</p>
             <strong>Phone Number:</strong>
             <p>1 (347) 348 - 7287</p>
+            <strong>Website:</strong>
+            <p>dianesayosbriones.netlify.app</p>
             <strong>LinkedIn:</strong>
             <p>https://www.linkedin.com/in/diane-sayos-briones/</p>
             <strong>Github:</strong>
             <p>https://github.com/Diane-Sayos</p>
         </article>
         <article className="education">
-            <h3>Education</h3>
+            <h3>EDUCATION</h3>
             <div className="card">
                 <strong>Hunter College - CUNY</strong>
                 <p>Bachelor of Arts in Dance, Minor in Psychology</p>
@@ -41,7 +47,7 @@ const Home = () => {
                 <p>Web Development - PERN Stack</p>
             </div>
         </article>
-        <h3>Tech Stack</h3>
+        <h3>TECH STACK</h3>
         <article className="tech-stack">
             <div className="stack-container">
                 <img src={jsPic} alt="Javascript" />

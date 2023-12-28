@@ -1,15 +1,13 @@
 import './Contact.css';
 
-import MailIcon from '@mui/icons-material/Mail';
 
 const Contact = () => {
     return (
         <section className="contact">
-            <div className="mail-container">
-                <MailIcon />
+            <div className="buttons">
+                <button className="contact-buttons">Mail</button>
+                <button className="contact-buttons">Call</button>
             </div>
-            <button>Mail</button>
-            <button>Call</button>
             <article className="contact-form">
                 <form>
                     <input
@@ -28,7 +26,7 @@ const Contact = () => {
                         rows="20"
                         required
                     />
-                    <button type="submit">Send Email</button>
+                    <button type="submit">Send Message</button>
                 </form>
             </article>
         </section>

@@ -15,7 +15,7 @@ import reactCourse from '../../images/Codecademy-react.png';
 const Certifications = () => {
     return (
         <section className="certifications">
-            <h2>Certifications</h2>
+            <h2>CERTIFICATIONS</h2>
             <div className="cards">
             <div className="card">
                     <div className="cert-container">

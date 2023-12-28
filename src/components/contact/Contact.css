@@ -14,3 +14,8 @@ form input, textarea, button {
 button {
     background-color: #E6CCB2;
 }
+
+.contact-buttons {
+    width: 45%;
+    margin: 1em auto;
+}
