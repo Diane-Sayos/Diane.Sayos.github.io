@@ -2,8 +2,8 @@
 .header h1, p {
     color: #7f5539;
     text-align: center;
+    margin: 10px auto;
 }
-
 
 .img-container img {
     display: block;

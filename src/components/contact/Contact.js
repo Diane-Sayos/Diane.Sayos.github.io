@@ -23,7 +23,7 @@ const Contact = () => {
                     <textarea
                         placeholder="Write your message here."
                         cols="20"
-                        rows="20"
+                        rows="10"
                         required
                     />
                     <button type="submit">Send Message</button>
