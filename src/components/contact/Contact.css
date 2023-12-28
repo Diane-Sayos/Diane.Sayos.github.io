@@ -2,7 +2,7 @@ form {
     display: flex;
     flex-direction: column;
     margin: 1em auto;
-    max-width: 50%;
+    max-width: 80%;
 }
 
 form input, textarea, button {

@@ -27,9 +27,14 @@
     color: #7f5539;
     font-weight: bolder;
     text-shadow: 3px 2px 2px white;
+    padding: 5px;
 }
 
-.navbar-link:active {
+.navbar-link:active, .navbar-link:focus {
     color: #E6CCB2;
-    text-decoration: underline;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px;
+    text-shadow: 2px 1px 1px #7f5539;
 }

@@ -25,7 +25,7 @@
     border: 2px solid #b08968;
     border-radius: 1em;
     background-color: #EDE0D4;
-    margin: 1em;
+    margin: 1em auto;
     width: 300px;
 }
 .card h3,p {
