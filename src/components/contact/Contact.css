@@ -1,0 +1,16 @@
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 1em auto;
+    max-width: 50%;
+}
+
+form input, textarea, button {
+    padding: 1em;
+    margin: 0.5em;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #E6CCB2;
+}
