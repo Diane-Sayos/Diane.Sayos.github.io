@@ -33,9 +33,9 @@
 }
 
 .navbar-link:active, .navbar-link:focus {
-    color: #E6CCB2;
+    color: white;
     padding: 5px;
     text-shadow: 2px 1px 1px #7f5539;
-    background-color: white;
+    background-color: #E6CCB2;
     border-radius: 10px;
 }

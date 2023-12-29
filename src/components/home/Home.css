@@ -25,7 +25,7 @@ img {
     background-color: white; 
 }
 
-h3 {
+h3, h4 {
     text-align: center;
 }
 
@@ -37,4 +37,24 @@ h3 {
 .home-buttons {
     width: 45%;
     margin: 1em auto;
+}
+
+.homebar {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid black;
+    padding: .5em;
+}
+
+.homebar-link {
+    text-decoration: none;
+    color: #7f5539;
+    padding: 5px;
+}
+
+.homebar-link:active, .homebar-link:focus {
+    color: #7f5539;
+    padding: 5px;
+    background-color: #E6CCB2;
+    border-radius: 10px;
 }

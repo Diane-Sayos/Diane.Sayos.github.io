@@ -1,18 +1,29 @@
 import './Home.css';
 
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
+import DownloadIcon from '@mui/icons-material/Download';
+
+
 const Personal = () => {
     return (
         <section className="personal-info">
+            <div>
+                <Stack direction="row" spacing={2}>
+                    <Button variant="outlined" startIcon={<DownloadIcon />}>Resume</Button>
+                    <Button variant="outlined" startIcon={<DownloadIcon />}>Business Card</Button>
+                </Stack>
+            </div>
             <h3>PERSONAL INFORMATION</h3>
-            <strong>Email:</strong>
+            <h4>Email:</h4>
             <p>dianesayosbriones@gmail.com</p>
-            <strong>Phone Number:</strong>
+            <h4>Phone Number:</h4>
             <p>1 (347) 348 - 7287</p>
-            <strong>Website:</strong>
+            <h4>Website:</h4>
             <p>dianesayosbriones.netlify.app</p>
-            <strong>LinkedIn:</strong>
+            <h4>LinkedIn:</h4>
             <p>https://www.linkedin.com/in/diane-sayos-briones/</p>
-            <strong>Github:</strong>
+            <h4>Github:</h4>
             <p>https://github.com/Diane-Sayos</p>
         </section>
     )
