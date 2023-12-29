@@ -1,8 +1,8 @@
 
 .header h1, p {
-    color: #7f5539;
     text-align: center;
     margin: 10px auto;
+    color: #7f5539;
 }
 
 .img-container img {
@@ -18,8 +18,10 @@
 .navbar {
     display: flex;
     justify-content: space-evenly;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding: .5em;
     background-color: #E6CCB2;
-    padding: 1rem;
 }
 
 .navbar-link {
@@ -32,9 +34,8 @@
 
 .navbar-link:active, .navbar-link:focus {
     color: #E6CCB2;
-    border: 1px solid white;
-    border-radius: 5px;
-    background-color: white;
     padding: 5px;
     text-shadow: 2px 1px 1px #7f5539;
+    background-color: white;
+    border-radius: 10px;
 }
