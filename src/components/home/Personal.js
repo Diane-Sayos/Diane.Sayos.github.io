@@ -4,14 +4,22 @@ import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import DownloadIcon from '@mui/icons-material/Download';
 
+import resume from '../../images/DianeSayos-Briones.pdf';
+import businessCard from '../../images/businesscard.png';
+
+
 
 const Personal = () => {
     return (
         <section className="personal-info">
-            <div>
+            <div className="downloads">
                 <Stack direction="row" spacing={2}>
-                    <Button variant="outlined" startIcon={<DownloadIcon />}>Resume</Button>
-                    <Button variant="outlined" startIcon={<DownloadIcon />}>Business Card</Button>
+                    <Button variant="outlined" startIcon={<DownloadIcon />}>
+                        <a href={resume} download className="download-button">Resume</a>
+                    </Button>
+                    <Button variant="outlined" startIcon={<DownloadIcon />}>
+                    <a href={businessCard} download className="download-button">Business Card</a>
+                    </Button>
                 </Stack>
             </div>
             <h3>PERSONAL INFORMATION</h3>

@@ -58,3 +58,9 @@ h3, h4 {
     background-color: #E6CCB2;
     border-radius: 10px;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+

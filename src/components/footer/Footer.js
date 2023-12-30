@@ -4,23 +4,46 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+import StickyNote2Icon from '@mui/icons-material/StickyNote2';
+import MailIcon from '@mui/icons-material/Mail';
+import CallIcon from '@mui/icons-material/Call';
+import CreditCardIcon from '@mui/icons-material/CreditCard';
+
+import resume from '../../images/DianeSayos-Briones.pdf';
+import businessCard from '../../images/businesscard.png';
 
 
 const Footer = () => {
     
     return (
         <section className="footer">
-            <div className="linkedin-container" onClick={() => window.open("https://www.linkedin.com/in/diane-sayos-briones/", "_blank")}>
+            <div className="container" onClick={() => window.open("https://www.linkedin.com/in/diane-sayos-briones/", "_blank")}>
                 <LinkedInIcon />
             </div>
-            <div className="github-container" onClick={() => window.open("https://github.com/Diane-Sayos", "_blank")}>
+            <div className="container" onClick={() => window.open("https://github.com/Diane-Sayos", "_blank")}>
                 <GitHubIcon />
             </div>
-            <div className="facebook-container" onClick={() => window.open("https://www.facebook.com/dianenazares", "_blank")}>
+            <div className="container" onClick={() => window.open("https://www.facebook.com/dianenazares", "_blank")}>
                 <FacebookIcon />
             </div>
-            <div className="instagram-container" onClick={() => window.open("https://www.instagram.com/_divineheart_/", "_blank")}>
+            <div className="container" onClick={() => window.open("https://www.instagram.com/_divineheart_/", "_blank")}>
                 <InstagramIcon />
+            </div>
+            <div className="container" onClick={() => window.open("https://calendly.com/dianesayosbriones", "_blank")}>
+                <CalendarMonthIcon />
+            </div>
+            <div className="container">
+                <a href="mailto:dianesayosbriones@gmail.com" target="_blank" rel="noreferrer"><MailIcon /></a>
+            </div>
+            <div className="container">
+                <a href={resume} download className="download-button"><StickyNote2Icon /></a>
+            </div>
+            <div className="container">
+                <a href={businessCard} download className="download-button"><CreditCardIcon /></a>
+            </div>
+            <div className="container">
+                <a href="tel:+13473487287" target="_blank" rel="noreferrer"><CallIcon /></a>
             </div>
         </section>
     )
