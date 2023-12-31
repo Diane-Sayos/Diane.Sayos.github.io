@@ -9,7 +9,7 @@ import Certifications from './components/certifications/Certifications.js';
 import Home from './components/home/Home.js';
 import Personal from './components/home/Personal.js';
 import Techstack from './components/home/Techstack.js';
-import Education from './components/home/Education.js';
+import Testimonials from './components/home/Testimonials.js';
 
 import './App.css';
 
@@ -19,7 +19,7 @@ const appRouter = createBrowserRouter(createRoutesFromElements(
   <Route path="/" element={ <Root /> }>
     <Route path="/" element={ <Home /> }>
       <Route path="/" element={ <Personal /> } />
-      <Route path="/education" element={ <Education /> } />
+      <Route path="/testimonials" element={ <Testimonials /> } />
       <Route path="/tech-stack" element={ <Techstack /> } />
     </Route>
     <Route path="/contact" element={ <Contact /> } />
