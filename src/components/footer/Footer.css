@@ -4,8 +4,10 @@
     background-color: #E6CCB2;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
+    position: sticky;
+    bottom: 0;
 }
 
-.footer div {
+.container {
     padding: 5px;
 }
