@@ -16,15 +16,15 @@
     width: 50%;
     height: 50px;
     width: 50px;
-    border: 1px solid #b08968;
+    border: 0.5px solid #b08968;
     border-radius: 35px;
     padding: 1rem;
 }
 .navbar {
     display: flex;
     justify-content: space-evenly;
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
+    border-bottom: 0.5px solid black;
+    border-top: 0.5px solid black;
     padding: .5em;
     background-color: #E6CCB2;
 }
@@ -38,9 +38,10 @@
 }
 
 .navbar-link:active, .navbar-link:focus {
-    color: white;
+    color: #7f5539;
     padding: 5px;
-    text-shadow: 2px 1px 1px #7f5539;
-    background-color: #E6CCB2;
+    text-shadow: 2px 1px 1px white;
+    background-color: white;
     border-radius: 10px;
+    border: 0.5px solid #E6CCB2;
 }
