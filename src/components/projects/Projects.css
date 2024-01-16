@@ -1,0 +1,10 @@
+/*projects container for whole project component*/
+.projects {}
+
+/* specific-project for each article */
+.specific-project {
+    margin: 1rem 15%;
+    border: .5px solid black;
+    border-radius: 10px;
+}
+
