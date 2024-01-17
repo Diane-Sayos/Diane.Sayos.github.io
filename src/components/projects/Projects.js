@@ -12,17 +12,22 @@ import PlannerAppointmentForm from '../../images/planner-form.png';
 import PlannerContactPage from '../../images/planner-contactPage.png';
 import PlannerContactForm from '../../images/planner-contactFrom.png';
 //spark-chat images
-
+import ChatHome from '../../images/sparkchat-landingpage.png';
 //the scratching post images
-
+import PostHome from '../../images/scratchingpost-feed.png';
+import PostExplore from '../../images/scratchingpost-explore.png';
+import PostProfile from '../../images/scratchingpost-profile.png';
+import PostPrivacy from '../../images/scratchingpost-privacyfeature.png';
+import PostFollow from '../../images/scratchingpost-followpage.png';
 //thirsty international images
-
+import ThirstyHome from '../../images/thirstyinternational-productspage.png';
 //redditrand images
 
 //ravenous images
-
+import RavenousHome from '../../images/ravenous-home.png';
+import RavenousSearch from '../../images/ravenous-search.png';
 //gizmo systems images
-
+import GizmoHome from '../../images/gizmosystems-landingpage.png';
 //petlover images
 import PetloverHome from '../../images/petlover-home.png';
 import PetloverSearch from '../../images/petlover-search.png';
@@ -35,25 +40,25 @@ const Projects = () => {
     const projects = [
         {
             name: "The Scratching Post",
-            images: [],
+            images: [PostHome, PostExplore, PostPrivacy, PostProfile, PostFollow],
             description: "A Social Media Platform that lets users post pictures with captions, message and video call with each other in realtime.",
             link: "https://github.com/Diane-Sayos/The-Scratching-Post",
         },
         {
             name: "Spark Chat",
-            images: [],
+            images: [ChatHome],
             description: "A Social Media Platform that lets users post with images, and send each other messages in realtime",
             link: "https://github.com/Diane-Sayos/Spark_Chat",
         },
         {
             name: "Thirsty International",
-            images: [],
+            images: [ThirstyHome],
             description: "An E-Commerce Platform that lets you buy exotic drinks found all over the world.",
             link: "https://github.com/Diane-Sayos/Thirsty_International",
         },
         {
             name: "Gizmo Systems",
-            images: [],
+            images: [GizmoHome],
             description: "An enrollment platform that lets users add / edit / delete universities. Allows users to register students and enroll or remove student from universities.",
             link: "https://github.com/Diane-Sayos/Gizmo-Systems",
         },
@@ -65,7 +70,7 @@ const Projects = () => {
         },
         {
             name: 'Ravenous',
-            images: [],
+            images: [RavenousHome, RavenousSearch],
             description: "An application that let's you search for restaurants based on categories in an area using Yelp API.",
             link: "https://github.com/Diane-Sayos/ravenous",
         },
