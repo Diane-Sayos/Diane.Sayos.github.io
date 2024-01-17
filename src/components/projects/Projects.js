@@ -7,10 +7,10 @@ import JammingSearch from '../../images/jammming-search.png';
 import JammingAdd from '../../images/jammming-addplaylist.png';
 import JammingEdit from '../../images/jammming-editplaylist.png';
 //planner images
-import AppointmentPage from '../../images/planner-home.png';
-import AppointmentForm from '../../images/planner-form.png';
-import ContactPage from '../../images/planner-contactPage.png';
-import ContactForm from '../../images/planner-contactFrom.png';
+import PlannerAppointmentPage from '../../images/planner-home.png';
+import PlannerAppointmentForm from '../../images/planner-form.png';
+import PlannerContactPage from '../../images/planner-contactPage.png';
+import PlannerContactForm from '../../images/planner-contactFrom.png';
 //spark-chat images
 
 //the scratching post images
@@ -24,7 +24,11 @@ import ContactForm from '../../images/planner-contactFrom.png';
 //gizmo systems images
 
 //petlover images
-
+import PetloverHome from '../../images/petlover-home.png';
+import PetloverSearch from '../../images/petlover-search.png';
+import PetloverCategory from '../../images/petlover-category.png';
+import PetloverError from '../../images/petlover-error.png';
+import PetloverSpecific from '../../images/petlover-specificPage.png';
 
 
 const Projects = () => {
@@ -73,18 +77,18 @@ const Projects = () => {
         },
         {
             name: "Appointment Planner",
-            images: [AppointmentPage, AppointmentForm, ContactPage, ContactForm],
+            images: [PlannerAppointmentPage, PlannerAppointmentForm, PlannerContactPage, PlannerContactForm],
             description: "An application that let's you add Contacts and Appointments made possible using create-react-app.",
             link: "https://github.com/Diane-Sayos/appointment-planner",
         },
         {
             name: "Petlover",
-            images: [],
+            images: [PetloverHome, PetloverSearch, PetloverCategory, PetloverSpecific, PetloverError],
             description: "An adoption website that lets users view all the animal listings of available pets that are up for adoption.",
             link: "https://github.com/Diane-Sayos/react-routers",
         },
-
     ]
+
     return (
         <section className="projects">
             <h2>PROJECTS</h2>
