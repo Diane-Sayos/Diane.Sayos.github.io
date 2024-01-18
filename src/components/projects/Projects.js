@@ -42,6 +42,11 @@ import RavenousSearch from '../../images/ravenous-search.png';
 
 //gizmo systems images
 import GizmoHome from '../../images/gizmosystems-landingpage.png';
+import GizmoStudents from '../../images/gizmosystems-studentspage.png';
+import GizmoCampuses from '../../images/gizmosystems-campuspage.png';
+import GizmoStudentSpecific from '../../images/gizmosystems-studentspecific.png';
+import GizmoCampusSpecific from '../../images/gizmosystems-campusspecific.png';
+import GizmoSearch from '../../images/gizmosystems-search.png';
 
 //petlover images
 import PetloverHome from '../../images/petlover-home.png';
@@ -73,7 +78,7 @@ const Projects = () => {
         },
         {
             name: "Gizmo Systems",
-            images: [GizmoHome],
+            images: [GizmoHome, GizmoSearch, GizmoStudents, GizmoStudentSpecific, GizmoCampuses, GizmoCampusSpecific],
             description: "An enrollment platform that lets users add / edit / delete universities. Allows users to register students and enroll or remove student from universities.",
             link: "https://github.com/Diane-Sayos/Gizmo-Systems",
         },
