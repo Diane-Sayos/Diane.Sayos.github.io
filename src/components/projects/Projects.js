@@ -103,12 +103,12 @@ const Projects = () => {
             description: "An enrollment platform that lets users add / edit / delete universities. Allows users to register students and enroll or remove student from universities.",
             link: "https://github.com/Diane-Sayos/Gizmo-Systems",
         },
-        {
-            name: "RedditRand",
-            images: [],
-            description: "",
-            link: "https://github.com/Diane-Sayos/RedditRand",
-        },
+        // {
+        //     name: "RedditRand",
+        //     images: [],
+        //     description: "",
+        //     link: "https://github.com/Diane-Sayos/RedditRand",
+        // },
         {
             name: 'Ravenous',
             images: [RavenousHome, RavenousSearch],
