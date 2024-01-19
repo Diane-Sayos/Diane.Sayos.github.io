@@ -6,7 +6,7 @@ const Personal = () => {
     return (
         <section>
             <article className="education">
-                <h3>EDUCATION</h3>
+                <h2>EDUCATION</h2>
                 <div className="card">
                     <h4>Hunter College - CUNY</h4>
                     <p>Bachelor of Arts in Dance</p>

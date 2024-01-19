@@ -18,7 +18,7 @@ import vscodePic from '../../images/vscode.png';
 const Techstack = () => {
     return (
         <section className="techstack">
-            <h3>TECH STACK</h3>
+            <h2>TECH STACK</h2>
             <article className="tech-stack">
                 <div className="stack-container">
                     <img src={jsPic} alt="Javascript" />

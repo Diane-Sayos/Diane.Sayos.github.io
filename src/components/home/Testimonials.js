@@ -42,7 +42,7 @@ const testimonies = [
 const Testimonials = () => {
     return (
         <section className="testimonial">
-            <h3>TESTIMONIALS</h3>
+            <h2>TESTIMONIALS</h2>
             {
                 testimonies.map(testimony => {
                     return (

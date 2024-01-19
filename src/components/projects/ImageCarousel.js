@@ -11,6 +11,7 @@ const ImageCarousel = ({ images }) => {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
+    adaptiveHeight: true,
   };
 
   return (

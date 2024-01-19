@@ -9,7 +9,7 @@
 
 .stack-container {
     display: block;
-    margin: 1rem auto;
+    margin: 10px auto;
     width: 50%;
     height: 120px;
     width: 170px;
@@ -25,7 +25,7 @@ img {
     background-color: white; 
 }
 
-h3, h4 {
+h2, h4 {
     text-align: center;
     margin: 1em;
     color: #7f5539;

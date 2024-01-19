@@ -126,6 +126,7 @@ const Projects = () => {
     return (
         <section className="projects">
             <h2>PROJECTS</h2>
+            <p>Click on each project's title to go to their respective github repository.</p>
             {projects.map((project) => {
                 return (
                     <SpecificProject project={project} />
