@@ -32,7 +32,16 @@ import PostPrivacy from '../../images/scratchingpost-privacyfeature.png';
 import PostFollow from '../../images/scratchingpost-followpage.png';
 
 //thirsty international images
-import ThirstyHome from '../../images/thirstyinternational-productspage.png';
+import ThirstyHome from '../../images/thirsty-landingpage.png';
+import ThirstyProducts from '../../images/thirsty-productspage.png';
+import ThirstyUsers from '../../images/thirsty-userspage.png';
+import ThirstyProfile from '../../images/thirsty-profile.png';
+import ThirstyUpdateCredentials from '../../images/thirsty-updatecredentials.png';
+import ThirstyUpdateProfile from '../../images/thirsty-updateprofile.png';
+import ThirstyCart from '../../images/thirsty-cart.png';
+import ThirstyCheckout from '../../images/thirsty-stripecheckout.png';
+import ThristyStripeCart from '../../images/thirsty-stripecartlist.png';
+import ThirstyStripeSuccessful from '../../images/thirsty-stripe successful.png';
 
 //redditrand images
 
@@ -72,7 +81,7 @@ const Projects = () => {
         },
         {
             name: "Thirsty International",
-            images: [ThirstyHome],
+            images: [ThirstyHome, ThirstyUsers, ThirstyProfile, ThirstyUpdateCredentials, ThirstyUpdateProfile, ThirstyProducts, ThirstyCart, ThirstyCheckout, ThristyStripeCart, ThirstyStripeSuccessful],
             description: "An E-Commerce Platform that lets you buy exotic drinks found all over the world.",
             link: "https://github.com/Diane-Sayos/Thirsty_International",
         },
