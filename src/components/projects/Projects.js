@@ -25,11 +25,23 @@ import ChatUpdateavatar from '../../images/sparkchat/editavatar.png';
 import ChatUpdateprofile from '../../images/sparkchat/editprofile.png';
 
 //the scratching post images
-import PostHome from '../../images/scratchingpost/feed.png';
-import PostExplore from '../../images/scratchingpost/explore.png';
-import PostProfile from '../../images/scratchingpost/profile.png';
-import PostPrivacy from '../../images/scratchingpost/privacyfeature.png';
-import PostFollow from '../../images/scratchingpost/followpage.png';
+import PostFeed from '../../images/scratchingpost/feed.png';
+import PostProfile from '../../images/scratchingpost/profilepage.png';
+import PostFollowers from '../../images/scratchingpost/followers.png';
+import PostDarkMode from '../../images/scratchingpost/darkmode.png';
+import PostComment from '../../images/scratchingpost/comment.png';
+import PostMessages from '../../images/scratchingpost/messages.png';
+import PostVideocall from '../../images/scratchingpost/videocall.png';
+import PostFriends from '../../images/scratchingpost/friends.png';
+import PostPictures from '../../images/scratchingpost/pictures.png';
+import PostPosts from '../../images/scratchingpost/posts.png';
+import PostSpecific from '../../images/scratchingpost/specificpage.png';
+import PostUpdateProfile from '../../images/scratchingpost/updateprofile.png';
+import PostSignup from '../../images/scratchingpost/signup.png';
+import PostPost from '../../images/scratchingpost/post.png';
+import PostFollowing from '../../images/scratchingpost/following.png';
+import PostSearch from '../../images/scratchingpost/search.png';
+import PostShare from '../../images/scratchingpost/share.png';
 
 //thirsty international images
 import ThirstyHome from '../../images/thirsty/landingpage.png';
@@ -69,7 +81,7 @@ const Projects = () => {
     const projects = [
         {
             name: "The Scratching Post",
-            images: [PostHome, PostExplore, PostPrivacy, PostProfile, PostFollow],
+            images: [PostSignup, PostFeed, PostComment, PostFriends, PostDarkMode, PostShare, PostSearch, PostSpecific, PostProfile, PostPost, PostUpdateProfile, PostFollowers, PostFollowing, PostPictures, PostPosts, PostMessages, PostVideocall],
             description: "A Social Media Platform that lets users post pictures with captions, message and video call with each other in realtime.",
             link: "https://github.com/Diane-Sayos/The-Scratching-Post",
         },
