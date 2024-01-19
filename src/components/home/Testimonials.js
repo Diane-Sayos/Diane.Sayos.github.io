@@ -1,10 +1,10 @@
 import './Home.css';
 
-import colton from '../../images/coltonpomeroy.png';
-import erik from '../../images/erikblaney.png';
-import key from '../../images/keycayetano.png';
-import alejandro from '../../images/alejandroloja.png';
-import bob from '../../images/bobsaludo.png';
+import colton from '../../images/testimonials/coltonpomeroy.png';
+import erik from '../../images/testimonials/erikblaney.png';
+import key from '../../images/testimonials/keycayetano.png';
+import alejandro from '../../images/testimonials/alejandroloja.png';
+import bob from '../../images/testimonials/bobsaludo.png';
 
 const testimonies = [
     {

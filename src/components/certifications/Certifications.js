@@ -1,16 +1,16 @@
 import './Certifications.css';
 
-import fullstack from '../../images/FullstackCertificate.png';
-import aws from '../../images/Coursera-AWS.png';
-import forage from '../../images/ForageCert.png';
-import js from '../../images/Coursera-JS.png';
-import reactCert from '../../images/Coursera-React.png';
-import githubPage from '../../images/githubpages.png';
-import frontend from '../../images/Codecademy-frontend.png';
-import backend from '../../images/Coursera-BackEnd.png';
-import versionControl from '../../images/Coursera-VersionControl.png';
-import introFrontend from '../../images/Coursera-FrontEnd.png';
-import reactCourse from '../../images/Codecademy-react.png';
+import fullstack from '../../images/certifications/FullstackCertificate.png';
+import aws from '../../images/certifications/Coursera-AWS.png';
+import forage from '../../images/certifications/ForageCert.png';
+import js from '../../images/certifications/Coursera-JS.png';
+import reactCert from '../../images/certifications/Coursera-React.png';
+import githubPage from '../../images/certifications/githubpages.png';
+import frontend from '../../images/certifications/Codecademy-frontend.png';
+import backend from '../../images/certifications/Coursera-BackEnd.png';
+import versionControl from '../../images/certifications/Coursera-VersionControl.png';
+import introFrontend from '../../images/certifications/Coursera-FrontEnd.png';
+import reactCourse from '../../images/certifications/Codecademy-react.png';
 
 const Certifications = () => {
     return (

@@ -10,8 +10,8 @@ import MailIcon from '@mui/icons-material/Mail';
 import CallIcon from '@mui/icons-material/Call';
 import CreditCardIcon from '@mui/icons-material/CreditCard';
 
-import resume from '../../images/DianeSayos-Briones.pdf';
-import businessCard from '../../images/businesscard.png';
+import resume from '../../images/personal/DianeSayos-Briones.pdf';
+import businessCard from '../../images/personal/businesscard.png';
 
 
 const Footer = () => {

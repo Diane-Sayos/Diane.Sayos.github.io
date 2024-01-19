@@ -3,66 +3,66 @@ import './Projects.css';
 import SpecificProject from './SpecificProject';
 
 //Jamzzz images
-import JammingHome from '../../images/jammming-homepage.png';
-import JammingSearch from '../../images/jammming-search.png';
-import JammingAdd from '../../images/jammming-addplaylist.png';
-import JammingEdit from '../../images/jammming-editplaylist.png';
+import JammingHome from '../../images/jammming/homepage.png';
+import JammingSearch from '../../images/jammming/search.png';
+import JammingAdd from '../../images/jammming/addplaylist.png';
+import JammingEdit from '../../images/jammming/editplaylist.png';
 
 //planner images
-import PlannerAppointmentPage from '../../images/planner-home.png';
-import PlannerAppointmentForm from '../../images/planner-form.png';
-import PlannerContactPage from '../../images/planner-contactPage.png';
-import PlannerContactForm from '../../images/planner-contactFrom.png';
+import PlannerAppointmentPage from '../../images/planner/home.png';
+import PlannerAppointmentForm from '../../images/planner/form.png';
+import PlannerContactPage from '../../images/planner/contactPage.png';
+import PlannerContactForm from '../../images/planner/contactFrom.png';
 
 //spark-chat images
-import ChatHome from '../../images/sparkchat-landingpage.png';
-import ChatSignup from '../../images/sparkchat-signup.png';
-import ChatFeed from '../../images/sparkchat-feed.png';
-import ChatProfilepage from '../../images/sparkchat-profilepage.png';
-import ChatSpecificpage from '../../images/sparkchat-specificpage.png';
-import ChatMessage from '../../images/sparkchat-chat.png';
-import ChatUpdateavatar from '../../images/sparkchat-editavatar.png';
-import ChatUpdateprofile from '../../images/sparkchat-editprofile.png';
+import ChatHome from '../../images/sparkchat/landingpage.png';
+import ChatSignup from '../../images/sparkchat/signup.png';
+import ChatFeed from '../../images/sparkchat/feed.png';
+import ChatProfilepage from '../../images/sparkchat/profilepage.png';
+import ChatSpecificpage from '../../images/sparkchat/specificpage.png';
+import ChatMessage from '../../images/sparkchat/chat.png';
+import ChatUpdateavatar from '../../images/sparkchat/editavatar.png';
+import ChatUpdateprofile from '../../images/sparkchat/editprofile.png';
 
 //the scratching post images
-import PostHome from '../../images/scratchingpost-feed.png';
-import PostExplore from '../../images/scratchingpost-explore.png';
-import PostProfile from '../../images/scratchingpost-profile.png';
-import PostPrivacy from '../../images/scratchingpost-privacyfeature.png';
-import PostFollow from '../../images/scratchingpost-followpage.png';
+import PostHome from '../../images/scratchingpost/feed.png';
+import PostExplore from '../../images/scratchingpost/explore.png';
+import PostProfile from '../../images/scratchingpost/profile.png';
+import PostPrivacy from '../../images/scratchingpost/privacyfeature.png';
+import PostFollow from '../../images/scratchingpost/followpage.png';
 
 //thirsty international images
-import ThirstyHome from '../../images/thirsty-landingpage.png';
-import ThirstyProducts from '../../images/thirsty-productspage.png';
-import ThirstyUsers from '../../images/thirsty-userspage.png';
-import ThirstyProfile from '../../images/thirsty-profile.png';
-import ThirstyUpdateCredentials from '../../images/thirsty-updatecredentials.png';
-import ThirstyUpdateProfile from '../../images/thirsty-updateprofile.png';
-import ThirstyCart from '../../images/thirsty-cart.png';
-import ThirstyCheckout from '../../images/thirsty-stripecheckout.png';
-import ThristyStripeCart from '../../images/thirsty-stripecartlist.png';
-import ThirstyStripeSuccessful from '../../images/thirsty-stripe successful.png';
+import ThirstyHome from '../../images/thirsty/landingpage.png';
+import ThirstyProducts from '../../images/thirsty/productspage.png';
+import ThirstyUsers from '../../images/thirsty/userspage.png';
+import ThirstyProfile from '../../images/thirsty/profile.png';
+import ThirstyUpdateCredentials from '../../images/thirsty/updatecredentials.png';
+import ThirstyUpdateProfile from '../../images/thirsty/updateprofile.png';
+import ThirstyCart from '../../images/thirsty/cart.png';
+import ThirstyCheckout from '../../images/thirsty/stripecheckout.png';
+import ThristyStripeCart from '../../images/thirsty/stripecartlist.png';
+import ThirstyStripeSuccessful from '../../images/thirsty/stripesuccessful.png';
 
 //redditrand images
 
 //ravenous images
-import RavenousHome from '../../images/ravenous-home.png';
-import RavenousSearch from '../../images/ravenous-search.png';
+import RavenousHome from '../../images/ravenous/home.png';
+import RavenousSearch from '../../images/ravenous/search.png';
 
 //gizmo systems images
-import GizmoHome from '../../images/gizmosystems-landingpage.png';
-import GizmoStudents from '../../images/gizmosystems-studentspage.png';
-import GizmoCampuses from '../../images/gizmosystems-campuspage.png';
-import GizmoStudentSpecific from '../../images/gizmosystems-studentspecific.png';
-import GizmoCampusSpecific from '../../images/gizmosystems-campusspecific.png';
-import GizmoSearch from '../../images/gizmosystems-search.png';
+import GizmoHome from '../../images/gizmosystems/landingpage.png';
+import GizmoStudents from '../../images/gizmosystems/studentspage.png';
+import GizmoCampuses from '../../images/gizmosystems/campuspage.png';
+import GizmoStudentSpecific from '../../images/gizmosystems/studentspecific.png';
+import GizmoCampusSpecific from '../../images/gizmosystems/campusspecific.png';
+import GizmoSearch from '../../images/gizmosystems/search.png';
 
 //petlover images
-import PetloverHome from '../../images/petlover-home.png';
-import PetloverSearch from '../../images/petlover-search.png';
-import PetloverCategory from '../../images/petlover-category.png';
-import PetloverError from '../../images/petlover-error.png';
-import PetloverSpecific from '../../images/petlover-specificPage.png';
+import PetloverHome from '../../images/petlover/home.png';
+import PetloverSearch from '../../images/petlover/search.png';
+import PetloverCategory from '../../images/petlover/category.png';
+import PetloverError from '../../images/petlover/error.png';
+import PetloverSpecific from '../../images/petlover/specificPage.png';
 
 
 const Projects = () => {
