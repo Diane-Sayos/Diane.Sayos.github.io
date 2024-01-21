@@ -58,7 +58,7 @@ h2, h3, h4 {
     padding: 5px;
 }
 
-.homebar-link:active, .homebar-link:focus {
+.homebar-link-selected {
     color: white;
     padding: 5px;
     background-color: #E6CCB2;

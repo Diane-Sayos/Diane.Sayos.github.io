@@ -10,15 +10,13 @@ const ImageCarousel = ({ images }) => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: true,
-    adaptiveHeight: true,
   };
 
   return (
     <Slider {...settings}>
       {images.map((image, index) => (
-        <div key={index}>
-          <img src={image} alt={`slide-${index}`} />
+        <div key={index} className="specific-image">
+          <img src={image} alt={`slide-${index}`} style={{width: "250px", margin: "1rem auto", height:  "200px",}}/>
         </div>
       ))}
     </Slider>

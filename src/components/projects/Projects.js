@@ -139,11 +139,13 @@ const Projects = () => {
         <section className="projects">
             <h2>PROJECTS</h2>
             <p>Click on each project's title to go to their respective github repository.</p>
-            {projects.map((project) => {
-                return (
-                    <SpecificProject project={project} />
-                )
-            })}
+            <div className="projects-cards">
+                {projects.map((project) => {
+                    return (
+                        <SpecificProject project={project} />
+                    )
+                })}
+            </div>
         </section>
     )
 };

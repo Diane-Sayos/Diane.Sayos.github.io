@@ -17,7 +17,7 @@ const Certifications = () => {
         <section className="certifications">
             <h2>CERTIFICATIONS</h2>
             <div className="cards">
-            <div className="card">
+                <div className="card">
                     <div className="cert-container">
                         <img src={fullstack} alt="Fullstack Certificate" />
                     </div>
