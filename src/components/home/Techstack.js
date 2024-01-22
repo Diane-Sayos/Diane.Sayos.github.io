@@ -1,5 +1,8 @@
 import './Home.css';
 
+import Card from '@mui/material/Card';
+import CardMedia from '@mui/material/CardMedia';
+
 import cssPic from '../../images/techstack/css.png';
 import expressPic from '../../images/techstack/express.png';
 import htmlPic from '../../images/techstack/html.png';
@@ -20,33 +23,127 @@ const Techstack = () => {
         <section className="techstack">
             <h2>TECH STACK</h2>
             <article className="tech-stack">
-                <div className="stack-container">
-                    <img src={jsPic} alt="Javascript" />
-                </div>
-                <div className="stack-container">
-                    <img src={htmlPic} alt="HTML 5" />
-                </div>
-                <div className="stack-container">
-                    <img src={cssPic} alt="CSS 3" />
-                </div>
-                <div className="stack-container">
-                    <img src={nodePic} alt="Node JS" />
-                </div>
-                <div className="stack-container">
-                    <img src={expressPic} alt="Express JS" />
-                </div>
-                <div className="stack-container">
-                    <img src={reactPic} alt="React" />
-                </div>
-                <div className="stack-container">
-                    <img src={reduxPic} alt="Redux" />
-                </div>
-                <div className="stack-container">
-                    <img src={materialuiPic} alt="Material UI" />
-                </div>
-                <div className="stack-container">
-                    <img src={postgresqlPic} alt="PostgreSQL" />
-                </div>
+
+             {/* Javascript */}
+                <Card raised sx={{width:200, height:130, p:"0.5rem", m:"1rem auto", borderRadius:"1em"}} >
+                    <CardMedia
+                        sx={{m:0, p:0, width:"100%", objectFit:"fill", height:"100%", borderRadius:"1em",}}
+                        component="img"
+                        image={jsPic}
+                        alt="Javascript"
+                    />
+                </Card>
+
+             {/* HTML */}
+             <Card raised sx={{width:200, height:130, p:"0.5rem", m:"1rem auto", borderRadius:"1em"}} >
+                    <CardMedia
+                        sx={{m:0, p:0, width:"100%", objectFit:"fill", height:"100%", borderRadius:"1em",}}
+                        component="img"
+                        image={htmlPic}
+                        alt="HTML 5"
+                    />
+                </Card>
+
+             {/* CSS */}
+             <Card raised sx={{width:200, height:130, p:"0.5rem", m:"1rem auto", borderRadius:"1em"}} >
+                    <CardMedia
+                        sx={{m:0, p:0, width:"100%", objectFit:"fill", height:"100%", borderRadius:"1em",}}
+                        component="img"
+                        image={cssPic}
+                        alt="CSS 3"
+                    />
+                </Card>
+
+             {/* Node */}
+             <Card raised sx={{width:200, height:130, p:"0.5rem", m:"1rem auto", borderRadius:"1em"}} >
+                    <CardMedia
+                        sx={{m:0, p:0, width:"100%", objectFit:"fill", height:"100%", borderRadius:"1em",}}
+                        component="img"
+                        image={nodePic}
+                        alt="Node JS"
+                    />
+                </Card>
+
+             {/* Express */}
+             <Card raised sx={{width:200, height:130, p:"0.5rem", m:"1rem auto", borderRadius:"1em"}} >
+                    <CardMedia
+                        sx={{m:0, p:0, width:"100%", objectFit:"fill", height:"100%", borderRadius:"1em",}}
+                        component="img"
+                        image={expressPic}
+                        alt="Express JS"
+                    />
+                </Card>
+
+             {/* React */}
+             <Card raised sx={{width:200, height:130, p:"0.5rem", m:"1rem auto", borderRadius:"1em"}} >
+                    <CardMedia
+                        sx={{m:0, p:0, width:"100%", objectFit:"fill", height:"100%", borderRadius:"1em",}}
+                        component="img"
+                        image={reactPic}
+                        alt="React"
+                    />
+                </Card>
+
+             {/* Redux */}
+             <Card raised sx={{width:200, height:130, p:"0.5rem", m:"1rem auto", borderRadius:"1em"}} >
+                    <CardMedia
+                        sx={{m:0, p:0, width:"100%", objectFit:"fill", height:"100%", borderRadius:"1em",}}
+                        component="img"
+                        image={reduxPic}
+                        alt="Redux"
+                    />
+                </Card>
+
+             {/* Material UI */}
+             <Card raised sx={{width:200, height:130, p:"0.5rem", m:"1rem auto", borderRadius:"1em"}} >
+                    <CardMedia
+                        sx={{m:0, p:0, width:"100%", objectFit:"fill", height:"100%", borderRadius:"1em",}}
+                        component="img"
+                        image={materialuiPic}
+                        alt="Material UI"
+                    />
+                </Card>
+
+             {/* Postgresql */}
+             <Card raised sx={{width:200, height:130, p:"0.5rem", m:"1rem auto", borderRadius:"1em"}} >
+                    <CardMedia
+                        sx={{m:0, p:0, width:"100%", objectFit:"fill", height:"100%", borderRadius:"1em",}}
+                        component="img"
+                        image={postgresqlPic}
+                        alt="PostgreSQL"
+                    />
+                </Card>
+
+             {/* Git */}
+             <Card raised sx={{width:200, height:130, p:"0.5rem", m:"1rem auto", borderRadius:"1em"}} >
+                    <CardMedia
+                        sx={{m:0, p:0, width:"100%", objectFit:"fill", height:"100%", borderRadius:"1em",}}
+                        component="img"
+                        image={gitPic}
+                        alt="Git"
+                    />
+                </Card>
+
+             {/* Github */}
+             <Card raised sx={{width:200, height:130, p:"0.5rem", m:"1rem auto", borderRadius:"1em"}} >
+                    <CardMedia
+                        sx={{m:0, p:0, width:"100%", objectFit:"fill", height:"100%", borderRadius:"1em",}}
+                        component="img"
+                        image={githubPic}
+                        alt="Github"
+                    />
+                </Card>
+
+             {/* CSS */}
+             <Card raised sx={{width:200, height:130, p:"0.5rem", m:"1rem auto", borderRadius:"1em"}} >
+                    <CardMedia
+                        sx={{m:0, p:0, width:"100%", objectFit:"fill", height:"100%", borderRadius:"1em",}}
+                        component="img"
+                        image={cssPic}
+                        alt="CSS 3"
+                    />
+                </Card>
+
                 <div className="stack-container">
                     <img src={gitPic} alt="Git" />
                 </div>

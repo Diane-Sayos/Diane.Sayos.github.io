@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
 import avatar from '../../images/personal/avatar.JPG';
+
 import './Header.css';
 
 
