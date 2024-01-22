@@ -2,13 +2,13 @@
     font-family: Abel;
 }
 
-.tech-stack {
+.tech-stack-container {
     display: flex;
     flex-flow: row wrap;
     margin-bottom: 3rem;
 }
 
-.stack-container {
+/* .stack-container {
     display: block;
     margin: 10px auto;
     width: 50%;
@@ -18,13 +18,8 @@
     padding: 1rem;
     background-color: white;
     border-radius: 1em;
-}
+} */
 
-img {
-    height: 100%;
-    width: 100%;
-    background-color: white; 
-}
 
 h2, h3, h4 {
     text-align: center;
@@ -71,7 +66,7 @@ a {
     color: black;
 }
 
-.image-container img{
+.testimony-image-container img{
     display: block;
     margin: 0 auto;
     width: 50%;
@@ -88,6 +83,6 @@ a {
     margin: 1em 10%;
 }
 
-.testimonial {
+.testimonials {
     margin-bottom: 3rem;
 }

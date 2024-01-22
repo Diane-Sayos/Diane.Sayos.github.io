@@ -41,18 +41,18 @@ const testimonies = [
 
 const Testimonials = () => {
     return (
-        <section className="testimonial">
+        <section className="testimonials">
             <h2>TESTIMONIALS</h2>
             {
                 testimonies.map(testimony => {
                     return (
                         <article className='testimony' key={testimony.name}>
-                            <div className='image-container'>
+                            <div className='testimony-image-container'>
                                 <img src={testimony.picture} alt="avatar" />
                             </div>
                             <h4>{testimony.name}</h4>
-                            <p className='relation'>{testimony.position}</p>
-                            <p className='review'>{testimony.review}</p>
+                            <p>{testimony.position}</p>
+                            <p>{testimony.review}</p>
                         </article>
                     )
                 })

@@ -5,21 +5,7 @@
  margin-bottom: 3rem;
 }
 
-.projects h2, p{
+.projects h2{
     text-align: center;
     color: #7f5539;
-}
-
-/* specific-project for each article */
-.specific-project-card {
-    margin: 10px auto;
-    border: .5px solid #b08968;
-    border-radius: 1em;
-    padding: 5px;
-    background-color: #E6CCB2;
-    width: 300px;
-}
-
-.specific-project-card a {
-    color: #563118;
 }

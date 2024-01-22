@@ -20,9 +20,9 @@ import vscodePic from '../../images/techstack/vscode.png';
 
 const Techstack = () => {
     return (
-        <section className="techstack">
+        <section className="techstack-section">
             <h2>TECH STACK</h2>
-            <article className="tech-stack">
+            <article className="tech-stack-container">
 
              {/* Javascript */}
                 <Card raised sx={{width:200, height:130, p:"0.5rem", m:"1rem auto", borderRadius:"1em"}} >
