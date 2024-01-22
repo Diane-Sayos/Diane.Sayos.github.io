@@ -82,7 +82,7 @@ const Projects = () => {
         {
             name: "The Scratching Post",
             images: [PostSignup, PostFeed, PostComment, PostFriends, PostDarkMode, PostShare, PostSearch, PostSpecific, PostProfile, PostPost, PostUpdateProfile, PostFollowers, PostFollowing, PostPictures, PostPosts, PostMessages, PostVideocall],
-            description: "A Social Media Platform that lets users post pictures with captions, message and video call with each other in realtime.",
+            description: "A Social Media Platform that lets users post pictures with captions, message and video call.",
             link: "https://github.com/Diane-Sayos/The-Scratching-Post",
         },
         {
@@ -100,7 +100,7 @@ const Projects = () => {
         {
             name: "Gizmo Systems",
             images: [GizmoHome, GizmoSearch, GizmoStudents, GizmoStudentSpecific, GizmoCampuses, GizmoCampusSpecific],
-            description: "An enrollment platform that lets users add / edit / delete universities. Allows users to register students and enroll or remove student from universities.",
+            description: "An enrollment platform that lets users enroll or unenroll students from universities.",
             link: "https://github.com/Diane-Sayos/Gizmo-Systems",
         },
         // {
