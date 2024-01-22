@@ -8,10 +8,14 @@
     flex-flow: row wrap;
 }
 
+.cert-container {
+    margin: 10px;
+}
+
 .cert-container img {
     display: block;
     margin: 5px auto;
-    width: 50%;
+    /* width: 50%; */
     height: 200px;
     width: 250px;
     border: 0.5px solid #b08968;
@@ -32,5 +36,4 @@
     text-align: center;
     color: #7f5539;
     padding: 5px;
-    margin: 5px auto;
 }
