@@ -22,13 +22,22 @@
 }
 .navbar {
     display: flex;
-    justify-content: space-evenly;
-    border-bottom: 0.5px solid black;
-    border-top: 0.5px solid black;
+    flex-direction: row;
+    justify-content: space-between;
     padding: .5em;
-    background-color: #E6CCB2;
+    background-color: white;
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 1px 10px 0px rgba(0,0,0,0.12);
 }
-
+.navbar-avatar-container {
+    display: flex;
+    justify-content:start;
+}
+.navbar-container  {
+    display: flex;
+    justify-content:end;
+    padding: .5em;
+    background-color: white;
+}
 .navbar-link {
     text-decoration: none;
     color: #7f5539;
@@ -38,10 +47,8 @@
 }
 
 .navbar-link-selected {
-    color: #7f5539;
+    color: white;
     padding: 5px;
-    text-shadow: 2px 1px 1px white;
-    background-color: white;
+    background-color: #E6CCB2;
     border-radius: 10px;
-    border: 0.5px solid #E6CCB2;
 }
