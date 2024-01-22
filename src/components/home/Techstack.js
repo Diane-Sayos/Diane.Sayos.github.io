@@ -134,31 +134,35 @@ const Techstack = () => {
                     />
                 </Card>
 
-             {/* CSS */}
+             {/* VS Code */}
              <Card raised sx={{width:200, height:130, p:"0.5rem", m:"1rem auto", borderRadius:"1em"}} >
                     <CardMedia
                         sx={{m:0, p:0, width:"100%", objectFit:"fill", height:"100%", borderRadius:"1em",}}
                         component="img"
-                        image={cssPic}
-                        alt="CSS 3"
+                        image={vscodePic}
+                        alt="VS Code"
                     />
                 </Card>
 
-                <div className="stack-container">
-                    <img src={gitPic} alt="Git" />
-                </div>
-                <div className="stack-container">
-                    <img src={githubPic} alt="Github" />
-                </div>
-                <div className="stack-container">
-                    <img src={vscodePic} alt="VS Code" />
-                </div>
-                <div className="stack-container">
-                    <img src={npmPic} alt="npm" />
-                </div>
-                <div className="stack-container">
-                    <img src={yarnPic} alt="yarn" />
-                </div>
+             {/* npm */}
+             <Card raised sx={{width:200, height:130, p:"0.5rem", m:"1rem auto", borderRadius:"1em"}} >
+                    <CardMedia
+                        sx={{m:0, p:0, width:"100%", objectFit:"fill", height:"100%", borderRadius:"1em",}}
+                        component="img"
+                        image={npmPic}
+                        alt="npm"
+                    />
+                </Card>
+
+             {/* yarn */}
+             <Card raised sx={{width:200, height:130, p:"0.5rem", m:"1rem auto", borderRadius:"1em"}} >
+                    <CardMedia
+                        sx={{m:0, p:0, width:"100%", objectFit:"fill", height:"100%", borderRadius:"1em",}}
+                        component="img"
+                        image={yarnPic}
+                        alt="yarn"
+                    />
+                </Card>
             </article>
         </section>
     )
