@@ -1,7 +1,7 @@
 import './Home.css';
 
 
-
+//edit to an about page--make sure to add images,and a short paragraph descibing me!
 const Personal = () => {
     return (
         <section>

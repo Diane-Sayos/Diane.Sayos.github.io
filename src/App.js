@@ -18,8 +18,8 @@ import { RouterProvider, Route, createBrowserRouter, createRoutesFromElements } 
 const appRouter = createBrowserRouter(createRoutesFromElements(
   <Route path="/" element={ <Root /> }>
     <Route path="/" element={ <Home /> }>
-      <Route path="/" element={ <Techstack /> } />
-      <Route path="/education" element={ <Personal /> } />
+      <Route path="/" element={ <Personal /> } />
+      <Route path="/techstack" element={ <Techstack /> } />
       <Route path="/testimonials" element={ <Testimonials /> } />
     </Route>
     <Route path="/contact" element={ <Contact /> } />

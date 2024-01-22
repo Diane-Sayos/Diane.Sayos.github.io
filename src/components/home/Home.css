@@ -8,22 +8,8 @@
     margin-bottom: 3rem;
 }
 
-/* .stack-container {
-    display: block;
-    margin: 10px auto;
-    width: 50%;
-    height: 120px;
-    width: 170px;
-    border: 0.5px solid #b08968;
-    padding: 1rem;
-    background-color: white;
-    border-radius: 1em;
-} */
-
-
 h2, h3, h4 {
     text-align: center;
-    margin: 1em;
     color: #7f5539;
 }
 
@@ -42,10 +28,10 @@ h2, h3, h4 {
     justify-content:end;
     padding: .5em;
     position: sticky;
-    top: 63px;
+    top: 60px;
     z-index: 100;
     background-color: white;
-    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 1px 10px 0px rgba(0,0,0,0.12);
 }
 
 .homebar-link {

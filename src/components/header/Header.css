@@ -4,22 +4,7 @@
     z-index: 100;
     background-color: white;
 }
-.header h1, p {
-    text-align: center;
-    margin: 0 auto;
-    color: #7f5539;
-}
 
-.img-container img {
-    display: block;
-    margin: 0 auto;
-    width: 50%;
-    height: 50px;
-    width: 50px;
-    border: 0.5px solid #b08968;
-    border-radius: 35px;
-    padding: 1rem;
-}
 .navbar {
     display: flex;
     flex-direction: row;
@@ -31,6 +16,11 @@
 .navbar-avatar-container {
     display: flex;
     justify-content:start;
+}
+.avatar-name {
+    margin: 0;
+    padding: 5px;
+    align-self: center;
 }
 .navbar-container  {
     display: flex;
@@ -52,3 +42,9 @@
     background-color: #E6CCB2;
     border-radius: 10px;
 }
+
+@media (max-width: 480px) {
+    .avatar-name {
+      display: none;
+    }
+  }

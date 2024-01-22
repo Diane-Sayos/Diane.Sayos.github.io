@@ -14,6 +14,7 @@ const Header = () => {
             <nav className="navbar">
                 <div className="navbar-avatar-container">
                     <Avatar sx={{}} alt="Diane Sayos-Briones" src={avatar} />
+                    <h3 className="avatar-name">Diane Sayos-Briones</h3>
                 </div>
                 <div className="navbar-container">
                     <NavLink to="/" onClick={() => setActiveNav('/')}className={activeNav === '/' ? "navbar-link-selected" : "navbar-link"}>HOME</NavLink>
