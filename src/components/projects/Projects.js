@@ -88,7 +88,7 @@ const Projects = () => {
         {
             name: "Spark Chat",
             images: [ChatHome, ChatSignup, ChatFeed, ChatProfilepage, ChatUpdateavatar, ChatUpdateprofile, ChatSpecificpage, ChatMessage],
-            description: "A Social Media Platform that lets users post with images, and send each other messages in realtime",
+            description: "A Social Media Platform that lets users post with images, and send each other messages in realtime.",
             link: "https://github.com/Diane-Sayos/Spark_Chat",
         },
         {
@@ -138,7 +138,6 @@ const Projects = () => {
     return (
         <section className="projects">
             <h2>PROJECTS</h2>
-            <p>Click on each project's title to go to their respective github repository.</p>
             <div className="projects-cards">
                 {projects.map((project) => {
                     return (
