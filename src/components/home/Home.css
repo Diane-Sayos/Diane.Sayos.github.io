@@ -32,40 +32,39 @@
 
 /* About css */
 .about {
-    margin: 0.5rem 1rem 3rem;
+    margin: 0.5rem 0.5rem 3rem 0.5rem;
     display: flex;
     flex-direction: column;
-    height: 100%;
 }
 
 .about-card {
     display: flex;
-    flex-basis: 80%;
     flex-direction: row;
-    padding: 0.5rem;
-    margin: 0.25rem;
-    align-items: center;
+    padding: 0.25rem;
+    margin: 0 auto;
+    justify-content: center;
 }
-
-.about-card-image-container {
+.slider-container {
     flex-basis: 40%;
-    border: 0.5px solid black;
-    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+    padding: 0.5rem;
+    margin: 0.5rem auto;
 }
 
-.about-card-image {
-    /* width: 80%;
-    height: 30%; */
-    border-radius: 10px;
-    margin: 0 auto;
+.about-image {
+    width: 400px;
+    height: 350px;
+    margin: 0.5rem auto;
 }
 
 .about-card-description {
     flex-basis: 60%;
-    border: 0.5px solid black;
 }
 
-
+.about-card-description p {
+    font-size: larger;
+}
 
 /* Techstack css */
 .tech-stack-container {
@@ -105,9 +104,21 @@ h2, h3, h4 {
 
 
 /* About css - mobile */
-@media (max-width: 480px) {
+@media (max-width: 1024px) {
     .about-card {
         display: flex;
         flex-direction: column;
     }
-  }
+}
+
+@media (max-width: 480px)   {
+    .slider-container  {
+        width: 330px;
+        margin: 0.25rem  auto 1rem auto;
+        justify-content: center;
+    }
+    .about-image {
+        width: 330px;
+        margin: 0.25rem auto;
+    }
+}
