@@ -15,7 +15,7 @@
 }
 .navbar-avatar-container {
     display: flex;
-    justify-content:start;
+    justify-content:flex-start;
 }
 .avatar-name {
     margin: 0;
@@ -24,7 +24,7 @@
 }
 .navbar-container  {
     display: flex;
-    justify-content:end;
+    justify-content:flex-end;
     padding: .5em;
     background-color: white;
 }

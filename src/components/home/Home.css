@@ -6,7 +6,7 @@
 /* Homebar navigation css */
 .homebar {
     display: flex;
-    justify-content:end;
+    justify-content:flex-end;
     padding: .5em;
     position: sticky;
     top: 60px;
