@@ -21,6 +21,11 @@
     padding: 5px;
 }
 
+.homebar-link:hover {
+    border: 1px solid #E6CCB2;
+    border-radius: 10px;
+}
+
 .homebar-link-selected {
     text-decoration: none;
     color: white;
@@ -40,17 +45,16 @@
 .about-card {
     display: flex;
     flex-direction: row;
-    padding: 2rem auto 3rem auto;
+    /* padding: 2rem auto 3rem auto; */
     margin: 2rem auto 10rem auto;
     width: 100%;
 }
 
 .introduction {
     width: 100%;
-    margin: 1rem auto;
+    margin: 30% auto 3rem 10%;
     background-color: white;
     height: 70vh;
-    margin: 8rem auto 3rem 8rem;
 }
 
 .introduction h1 {
@@ -69,6 +73,8 @@
 .description-wrapper {
     background-color: #eed6be;
     border-radius: 90% 20% / 100% 20%;
+    padding:1rem;
+    margin-bottom: 40%;
 }
 
 .slider-container {
@@ -149,13 +155,14 @@ h2, h3, h4 {
         margin: 2rem auto 3rem auto;
     }
     .introduction {
-        padding: 20% 0;
-        margin: 0;
+        /* padding: 20% 0;
+        margin: 0; */
         height: 60vh;
         align-content: center;
     }
     .description-wrapper {
         border-radius: 90% 20% / 90% 20%;
+        margin-bottom: 25%;
     }
 }
 

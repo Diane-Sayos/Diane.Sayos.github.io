@@ -110,7 +110,7 @@ const Contact = () => {
             </article>
             <article>
                 <Fragment>
-                    <BootstrapButton onClick={openFormModalHandler}>
+                    <BootstrapButton onClick={openFormModalHandler} className="navbar-link">
                         CONTACT
                     </BootstrapButton>
                     <Dialog
