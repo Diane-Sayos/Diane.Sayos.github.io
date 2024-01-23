@@ -51,7 +51,7 @@
 }
 
 .introduction {
-    width: 100%;
+    width: 90%;
     margin: 30% auto 3rem 10%;
     background-color: white;
     height: 70vh;
@@ -61,7 +61,7 @@
     font-size: 2rem;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #7f5539;
-    margin: 3rem 2rem;
+    margin: 3rem 0;
 }
 
 .introduction span {
@@ -155,10 +155,8 @@ h2, h3, h4 {
         margin: 2rem auto 3rem auto;
     }
     .introduction {
-        /* padding: 20% 0;
-        margin: 0; */
+        margin: 30% auto 3rem 1rem;
         height: 60vh;
-        align-content: center;
     }
     .description-wrapper {
         border-radius: 90% 20% / 90% 20%;
@@ -168,12 +166,12 @@ h2, h3, h4 {
 
 @media (max-width: 480px)   {
     .slider-container  {
-        width: 330px;
+        width: 310px;
         margin: 0.25rem  auto 1rem auto;
         justify-content: center;
     }
     .about-image {
-        width: 330px;
+        width: 310px;
         margin: 0.25rem auto;
     }
 }
