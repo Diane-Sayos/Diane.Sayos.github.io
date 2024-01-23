@@ -32,11 +32,12 @@
     text-decoration: none;
     color: #7f5539;
     font-weight: bolder;
-    text-shadow: 3px 2px 2px white;
     padding: 5px;
+    align-self: center;
 }
 
 .navbar-link-selected {
+    text-decoration: none;
     color: white;
     padding: 5px;
     background-color: #E6CCB2;

@@ -2,27 +2,8 @@
     font-family: Abel;
 }
 
-.tech-stack-container {
-    display: flex;
-    flex-flow: row wrap;
-    margin-bottom: 3rem;
-}
 
-h2, h3, h4 {
-    text-align: center;
-    color: #7f5539;
-}
-
-.buttons {
-    display: flex;
-    flex-direction: row;
-    margin: 1em;
-}
-.home-buttons {
-    width: 45%;
-    margin: 1em auto;
-}
-
+/* Homebar navigation css */
 .homebar {
     display: flex;
     justify-content:end;
@@ -41,17 +22,66 @@ h2, h3, h4 {
 }
 
 .homebar-link-selected {
+    text-decoration: none;
     color: white;
     padding: 5px;
     background-color: #E6CCB2;
     border-radius: 10px;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+
+/* About css */
+.about {
+    margin: 0.5rem 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
+.about-card {
+    display: flex;
+    flex-basis: 80%;
+    flex-direction: row;
+    padding: 0.5rem;
+    margin: 0.25rem;
+    align-items: center;
+}
+
+.about-card-image-container {
+    flex-basis: 40%;
+    border: 0.5px solid black;
+    margin: 0 auto;
+}
+
+.about-card-image {
+    /* width: 80%;
+    height: 30%; */
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.about-card-description {
+    flex-basis: 60%;
+    border: 0.5px solid black;
+}
+
+
+
+/* Techstack css */
+.tech-stack-container {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 3rem;
+}
+
+h2, h3, h4 {
+    text-align: center;
+    color: #7f5539;
+    margin: 0.5rem;
+}
+
+
+/* testimonials css */
 .testimony-image-container img{
     display: block;
     margin: 0 auto;
@@ -72,3 +102,12 @@ a {
 .testimonials {
     margin-bottom: 3rem;
 }
+
+
+/* About css - mobile */
+@media (max-width: 480px) {
+    .about-card {
+        display: flex;
+        flex-direction: column;
+    }
+  }

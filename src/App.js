@@ -1,7 +1,6 @@
 //import components
 import Root from './components/root/Root.js';
 
-import  Contact from './components/contact/Contact.js';
 import Projects from './components/projects/Projects.js';
 import Certifications from './components/certifications/Certifications.js';
 
@@ -22,7 +21,6 @@ const appRouter = createBrowserRouter(createRoutesFromElements(
       <Route path="/techstack" element={ <Techstack /> } />
       <Route path="/testimonials" element={ <Testimonials /> } />
     </Route>
-    <Route path="/contact" element={ <Contact /> } />
     <Route path="/certifications" element={ <Certifications /> } />
     <Route path="/projects" element={ <Projects /> } />
   </Route>

@@ -12,6 +12,7 @@ import Paper from '@mui/material/Paper';
 import resume from '../../images/personal/DianeSayos-Briones.pdf';
 import businessCard from '../../images/personal/businesscard.png';
 
+import './Footer.css';
 
 const Footer = () => {
     
@@ -22,10 +23,10 @@ const Footer = () => {
             <FacebookIcon sx={{m:"0.5rem"}} onClick={() => window.open("https://www.facebook.com/dianenazares", "_blank")}/>
             <InstagramIcon sx={{m:"0.5rem"}} onClick={() => window.open("https://www.instagram.com/_divineheart_/", "_blank")}/>
             <CalendarMonthIcon sx={{m:"0.5rem"}} onClick={() => window.open("https://calendly.com/dianesayosbriones", "_blank")}/>
-            <a href="mailto:dianesayosbriones@gmail.com" target="_blank" rel="noreferrer"><MailIcon sx={{m:"0.5rem"}}/></a>
-            <a href={resume} download className="download-button"><StickyNote2Icon sx={{m:"0.5rem"}}/></a>
-            <a href={businessCard} download className="download-button"><CreditCardIcon sx={{m:"0.5rem"}}/></a>
-            <a href="tel:+13473487287" target="_blank" rel="noreferrer"><CallIcon sx={{m:"0.5rem"}}/></a>
+            <a href="mailto:dianesayosbriones@gmail.com" target="_blank" rel="noreferrer" className="footer-button"><MailIcon sx={{m:"0.5rem"}}/></a>
+            <a href={resume} download className="footer-button"><StickyNote2Icon sx={{m:"0.5rem"}}/></a>
+            <a href={businessCard} download className="footer-button"><CreditCardIcon sx={{m:"0.5rem"}}/></a>
+            <a href="tel:+13473487287" target="_blank" rel="noreferrer" className="footer-button"><CallIcon sx={{m:"0.5rem"}}/></a>
         </Paper>
     )
 };

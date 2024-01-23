@@ -1,6 +1,6 @@
 import './Contact.css';
 
-import { useState } from 'react';
+import React, { useState, Fragment } from 'react';
 import emailjs from '@emailjs/browser';
 
 import { LoadingButton } from '@mui/lab';
@@ -8,6 +8,15 @@ import SendIcon from '@mui/icons-material/Send';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
+
+import Button from '@mui/material/Button';
+import TextField from '@mui/material/TextField';
+import Dialog from '@mui/material/Dialog';
+import DialogActions from '@mui/material/DialogActions';
+import DialogContent from '@mui/material/DialogContent';
+import DialogContentText from '@mui/material/DialogContentText';
+import DialogTitle from '@mui/material/DialogTitle';
+import { styled } from '@mui/material/styles';
 
 const style = {
     position: 'absolute',
@@ -19,7 +28,20 @@ const style = {
     border: '2px solid #000',
     boxShadow: 24,
     p: 4,
-  };
+};
+const BootstrapButton = styled(Button)({
+    boxShadow: 'none',
+    textTransform: 'none',
+    fontSize: 16,
+    fontWeight: 'bolder',
+    padding: '5px',
+    color: '#7f5539',
+    alignSelf: 'center',
+    lineHeight: 1.5,
+    backgroundColor: 'white',
+    borderColor: 'white',
+    fontFamily: "Abel",
+});
 
 const Contact = () => {
     const [name, setName] = useState('')
@@ -29,12 +51,25 @@ const Contact = () => {
     const [loading, setLoading] = useState(false);
     const [modalOpen, setModalOpen] = useState(false);
 
+    const [openForm, setOpenForm] = useState(false);
+
+    const openFormModalHandler = () => {
+      setOpenForm(true);
+    };
+  
+    const closeFormModalHandler = () => {
+      setOpenForm(false);
+    };
+
     const serviceId = "service_pbtbshk";
     const templateId = "template_b4b4ly7";
     const publicKey = "JxcTAhgwPAFVho8mf";
 
     const handleOpenModal = () => setModalOpen(true);
-    const handleCloseModal = () => setModalOpen(false);
+    const handleCloseModal = () => {
+        setModalOpen(false);
+        setOpenForm(false);
+    };
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -73,44 +108,81 @@ const Contact = () => {
                     </Box>
                 </Modal>
             </article>
-            <article className="contact-form">
-                <form onSubmit={handleSubmit}>
-                    <input
-                        placeholder="Your Name"
-                        type="text"
-                        name="name"
-                        value={name}
-                        onChange={(e) => setName(e.target.value)}
-                        required
-                    />
-                    <input
-                        placeholder="Your Email Address"
-                        type="email"
-                        name="email"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                        required
-                    />
-                    <input
-                        placeholder="Your Phone Number (Pattern: 123-456-7890)"
-                        type="tel"
-                        name="phone"
-                        value={phone}
-                        onChange={(e) => setPhone(e.target.value)}
-                        required
-                    />
-                    <textarea
-                        placeholder="Write your message here."
-                        cols="20"
-                        rows="9"
-                        name="message"
-                        value={message}
-                        onChange={(e) => setMessage(e.target.value)}
-                        required
-                    />
-                    {/* <button type="submit">Send Message</button> */}
-                    <LoadingButton onClick={(e) => handleSubmit(e)} loading={loading} loadingPosition="center" startIcon={<SendIcon />} variant="outlined">Send Message</LoadingButton>
-                </form>
+            <article>
+                <Fragment>
+                    <BootstrapButton onClick={openFormModalHandler}>
+                        CONTACT
+                    </BootstrapButton>
+                    <Dialog
+                        open={openForm}
+                        onClose={closeFormModalHandler}
+                    >
+                        <DialogTitle>CONTACT</DialogTitle>
+                        <DialogContent>
+                        <DialogContentText>
+                            Please fill out the form below with your information.
+                        </DialogContentText>
+                            <TextField
+                                autoFocus
+                                required
+                                margin="dense"
+                                id="name"
+                                name="name"
+                                value={name}
+                                onChange={(e) => setName(e.target.value)}
+                                label="Name"
+                                type="text"
+                                fullWidth
+                                variant="outlined"
+                            />
+                            <TextField
+                                autoFocus
+                                required
+                                margin="dense"
+                                id="email"
+                                type="email"
+                                name="email"
+                                value={email}
+                                onChange={(e) => setEmail(e.target.value)}
+                                label="Email Address"
+                                fullWidth
+                                variant="outlined"
+                            />
+                            <TextField
+                                autoFocus
+                                required
+                                margin="dense"
+                                type="tel"
+                                name="phone"
+                                value={phone}
+                                onChange={(e) => setPhone(e.target.value)}
+                                id="phone"
+                                label="Phone Number"
+                                fullWidth
+                                variant="outlined"
+                            />
+                            <TextField
+                                autoFocus
+                                required
+                                multiline
+                                margin="dense"
+                                cols="20"
+                                rows="9"
+                                name="message"
+                                value={message}
+                                onChange={(e) => setMessage(e.target.value)}
+                                id="message"
+                                label="Message"
+                                fullWidth
+                                variant="outlined"
+                            />
+                        </DialogContent>
+                        <DialogActions>
+                            <BootstrapButton onClick={closeFormModalHandler}>Cancel</BootstrapButton>
+                            <LoadingButton sx={{color: '#7f5539', borderColor: '#7f5539'}} onClick={(e) => handleSubmit(e)} loading={loading} loadingPosition="center" startIcon={<SendIcon />} variant="outlined">Send Message</LoadingButton>
+                        </DialogActions>
+                    </Dialog>
+                </Fragment>
             </article>
         </section>
     )
