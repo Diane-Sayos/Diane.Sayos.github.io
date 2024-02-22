@@ -19,25 +19,25 @@
 </details>
 
 ## Landing Page / Home Page
-!![Screenshot] (./home.jpeg)
+!![Screenshot] (home.jpeg)
 
 ## Techstack Page
-!![Screenshot] ('techstack.jpeg')
+![Screenshot] (techstack.jpeg)
 
 ## Testimonials Page
-!![Screenshot] (testimonial.jpeg)
+![Screenshot] (testimonial.jpeg)
 
 ## Certifications Page
-!![Screenshot] (/cert.jpeg)
+![Screenshot] (cert.jpeg)
 
 ## Projects Page
-!![Screenshot] ('/projects.jpeg')
+![Screenshot] (projects.jpeg)
 
 ## Contact Page
-!![Screenshot] ('./form.jpeg')
+![Screenshot] (form.jpeg)
 
 ## Contact Page Loading Functionality
-!![Screenshot] ('./loading.jpeg')
+![Screenshot] (loading.jpeg)
 
 ## Contact Page Message Successful Notification
-!![Screenshot] ('./notice.jpeg')
+![Screenshot] (notice.jpeg)
