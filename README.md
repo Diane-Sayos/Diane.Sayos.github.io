@@ -1,6 +1,11 @@
 # Portfolio
 
 <details>
+    <summary>Deployed Link</summary>
+    https://dianesayosbriones.netlify.app/
+</details>
+
+<details>
     <summary>Description</summary>
     Portfolio website that shows all my tech stack, testimonials on the Home Page. You can see all my certifications when you navigate to the certifications page.
     All my projects are also displayed on this portfolio and can direct viewers to th corresponding github repository once the project's title has been clicked.
@@ -16,6 +21,12 @@
     React-Slick ||
     Material UI ||
     EmailJS
+</details>
+
+<details>
+    <summary>View App Functionalities</summary>
+    Home Page
+    <img src='./home.jpeg' width=400 height=300>
 </details>
 
 ## Landing Page / Home Page
