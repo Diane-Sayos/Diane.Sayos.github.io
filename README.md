@@ -25,30 +25,20 @@
 
 <details>
     <summary>View App Functionalities</summary>
-    Home Page
-    <img src='./home.jpeg' width=400 height=300>
+    Home Page<br />
+    <img src='./home.jpeg' />
+    Techstack Page<br />
+    <img src='./techstack.jpeg' />
+    Testimonials Page<br />
+    <img src='./testimonial.jpeg' />
+    Certifications Page<br />
+    <img src='./cert.jpeg' />
+    Projects Page<br />
+    <img src='./projects.jpeg' />
+    Contact Page<br />
+    <img src='./form.jpeg' />
+    Contact Page Loading Button<br />
+    <img src='./loading.jpeg' />
+    Contact Page Message Success Notification<br />
+    <img src='./notice.jpeg' />
 </details>
-
-## Landing Page / Home Page
-![Screenshot](home.jpeg)
-
-## Techstack Page
-![Screenshot](techstack.jpeg)
-
-## Testimonials Page
-![Screenshot](testimonial.jpeg)
-
-## Certifications Page
-![Screenshot](cert.jpeg)
-
-## Projects Page
-![Screenshot] projects.jpeg)
-
-## Contact Page
-![Screenshot](form.jpeg)
-
-## Contact Page Loading Functionality
-![Screenshot](loading.jpeg)
-
-## Contact Page Message Successful Notification
-![Screenshot](notice.jpeg)
