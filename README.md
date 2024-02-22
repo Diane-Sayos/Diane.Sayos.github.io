@@ -24,7 +24,7 @@
 </details>
 
 <details>
-    <summary>View App Functionalities</summary>
+    <summary><h2>View App Functionalities</h2></summary>
     <h2>Home Page</h2><br />
     <img src='./home.jpeg' />
     <h2>Techstack Page</h2><br />
