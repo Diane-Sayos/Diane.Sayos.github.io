@@ -18,20 +18,26 @@
     EmailJS
 </details>
 
-## Landing Page / Tech Stack Page
-!![Screenshot] (image_here)
+## Landing Page / Home Page
+!![Screenshot] ('./home.jpeg')
 
-## Education Page
-!![Screenshot] (image_here)
+## Techstack Page
+!![Screenshot] ('./techstack.jpeg')
 
 ## Testimonials Page
-!![Screenshot] (image_here)
+!![Screenshot] ('./testimonial.jpeg')
 
 ## Certifications Page
-!![Screenshot] (image_here)
+!![Screenshot] ('./cert.jpeg')
 
 ## Projects Page
-!![Screenshot] (image_here)
+!![Screenshot] ('./projects.jpeg')
 
 ## Contact Page
-!![Screenshot] (image_here)
+!![Screenshot] ('./form.jpeg')
+
+## Contact Page Loading Functionality
+!![Screenshot] ('./loading.jpeg')
+
+## Contact Page Message Successful Notification
+!![Screenshot] ('./notice.jpeg')
