@@ -25,7 +25,7 @@
 
 <details>
     <summary>View App Functionalities</summary>
-    Home Page<br />
+    <h2>Home Page</h2><br />
     <img src='./home.jpeg' />
     Techstack Page<br />
     <img src='./techstack.jpeg' />
