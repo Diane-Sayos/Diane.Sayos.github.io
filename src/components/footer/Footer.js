@@ -26,7 +26,7 @@ const Footer = () => {
             <a href="mailto:dianesayosbriones@gmail.com" target="_blank" rel="noreferrer" className="footer-button"><MailIcon sx={{m:"0.25rem"}}/></a>
             <a href={resume} download className="footer-button"><StickyNote2Icon sx={{m:"0.25rem"}}/></a>
             <a href={businessCard} download className="footer-button"><CreditCardIcon sx={{m:"0.25rem"}}/></a>
-            <a href="tel:+13473487287" target="_blank" rel="noreferrer" className="footer-button"><CallIcon sx={{m:"0.25rem"}}/></a>
+            <a href="tel:+13473772786" target="_blank" rel="noreferrer" className="footer-button"><CallIcon sx={{m:"0.25rem"}}/></a>
         </Paper>
     )
 };
